@@ -12,6 +12,9 @@ public class BasicPartOne {
         System.out.println("Hello");
         System.out.println("XT");
 
+        // Or
+        System.out.println("Hello\nXT");
+
 
         /* 2. Write a Java program to print the sum of two numbers.
         Test Data:
@@ -21,6 +24,10 @@ public class BasicPartOne {
         */
         System.out.println(74+36);
 
+        // Or
+        int sum = 24 + 26;
+        System.out.println(sum);
+
 
         /* 3. Write a Java program to divide two numbers and print them on the screen.
         Test Data :
@@ -29,6 +36,10 @@ public class BasicPartOne {
         16
         */
         System.out.println(50/3);
+
+        // Or
+        int result = 50 / 3;
+        System.out.println(result);
 
 
         /* 4. Write a Java program to print the results of the following operations.
@@ -52,6 +63,9 @@ public class BasicPartOne {
         System.out.println(c);
         System.out.println(d);
 
+        // Or
+        System.out.println(a + "\n" + b + "\n" + c + "\n" + d);
+
 
         /* 5. Write a Java program that takes two numbers as input and displays the product of two numbers.
         Test Data:
@@ -62,14 +76,17 @@ public class BasicPartOne {
         */
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input first number: ");
-        int firstNum = scanner.nextInt();
+        int num1 = scanner.nextInt();
 
         System.out.print("Input second number: ");
-        int secondNum = scanner.nextInt();
+        int num2 = scanner.nextInt();
 
-        int product = firstNum * secondNum;
+        int product = num1 * num2;
 
         System.out.println(product);
+
+        // Or
+        System.out.println(num1 + " x " + num2 + " = " + product);
 
 
     }
